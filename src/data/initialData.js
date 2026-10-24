@@ -440,7 +440,7 @@ export const initialData = {
       liveDemoUrl: "",
       featured: true,
       date: "2025",
-      image: "/images/project-rythumitra-360.svg"
+      image: "/images/project-rythumitra-360.jpg"
     }
   ],
   experience: [
