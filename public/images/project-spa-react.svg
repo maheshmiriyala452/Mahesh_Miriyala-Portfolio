@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p3Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="p3Accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" rx="16" fill="url(#p3Bg)" />
+  <rect x="2" y="2" width="796" height="446" rx="15" fill="none" stroke="#312e81" stroke-width="1.5" />
+
+  <!-- Single Page Architecture Diagram -->
+  <!-- Client: React.js App -->
+  <g transform="translate(60, 60)">
+    <rect width="200" height="260" rx="12" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+    <rect width="200" height="34" rx="12" fill="#0284c7" />
+    <text x="100" y="22" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">React 18+ SPA Client</text>
+    
+    <!-- Component blocks inside -->
+    <rect x="15" y="50" width="170" height="30" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+    <text x="100" y="70" font-family="system-ui, sans-serif" font-size="11" fill="#bae6fd" text-anchor="middle">Router &amp; Layout</text>
+
+    <rect x="15" y="90" width="170" height="30" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+    <text x="100" y="110" font-family="system-ui, sans-serif" font-size="11" fill="#bae6fd" text-anchor="middle">State Hooks (useState/Effect)</text>
+
+    <rect x="15" y="130" width="170" height="30" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+    <text x="100" y="150" font-family="system-ui, sans-serif" font-size="11" fill="#bae6fd" text-anchor="middle">Dynamic Modals &amp; Forms</text>
+
+    <rect x="15" y="170" width="170" height="30" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+    <text x="100" y="190" font-family="system-ui, sans-serif" font-size="11" fill="#bae6fd" text-anchor="middle">Bootstrap 5 UI Grid</text>
+
+    <rect x="15" y="210" width="170" height="34" rx="6" fill="#0369a1" />
+    <text x="100" y="232" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">Axios REST Client</text>
+  </g>
+
+  <!-- Connectors: REST API Requests & JSON Responses -->
+  <g transform="translate(280, 140)">
+    <path d="M 0 20 L 70 20" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arrow)" />
+    <text x="35" y="12" font-family="monospace" font-size="10" fill="#38bdf8" text-anchor="middle">HTTP GET/POST</text>
+
+    <path d="M 70 60 L 0 60" stroke="#a78bfa" stroke-width="2.5" stroke-dasharray="4 2" />
+    <text x="35" y="80" font-family="monospace" font-size="10" fill="#a78bfa" text-anchor="middle">JSON Payload</text>
+  </g>
+
+  <!-- Server: Flask Microservice -->
+  <g transform="translate(370, 60)">
+    <rect width="180" height="260" rx="12" fill="#0f172a" stroke="#818cf8" stroke-width="2" />
+    <rect width="180" height="34" rx="12" fill="#4f46e5" />
+    <text x="90" y="22" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">Flask REST Backend</text>
+
+    <rect x="15" y="50" width="150" height="35" rx="6" fill="#1e293b" stroke="#818cf8" stroke-width="1" />
+    <text x="90" y="72" font-family="monospace" font-size="11" fill="#c7d2fe" text-anchor="middle">@app.route('/api')</text>
+
+    <rect x="15" y="95" width="150" height="35" rx="6" fill="#1e293b" stroke="#818cf8" stroke-width="1" />
+    <text x="90" y="117" font-family="system-ui, sans-serif" font-size="11" fill="#c7d2fe" text-anchor="middle">CORS &amp; Serialization</text>
+
+    <rect x="15" y="140" width="150" height="35" rx="6" fill="#1e293b" stroke="#818cf8" stroke-width="1" />
+    <text x="90" y="162" font-family="system-ui, sans-serif" font-size="11" fill="#c7d2fe" text-anchor="middle">Validation Logic</text>
+
+    <rect x="15" y="185" width="150" height="35" rx="6" fill="#1e293b" stroke="#818cf8" stroke-width="1" />
+    <text x="90" y="207" font-family="system-ui, sans-serif" font-size="11" fill="#c7d2fe" text-anchor="middle">Error Handling</text>
+
+    <rect x="15" y="230" width="150" height="18" rx="4" fill="#312e81" />
+    <text x="90" y="243" font-family="monospace" font-size="9" fill="#a5b4fc" text-anchor="middle">SQLAlchemy / PyMySQL</text>
+  </g>
+
+  <!-- Connectors to Database -->
+  <g transform="translate(565, 170)">
+    <path d="M 0 10 L 50 10" stroke="#10b981" stroke-width="2.5" />
+    <path d="M 50 25 L 0 25" stroke="#10b981" stroke-width="2.5" stroke-dasharray="3 2" />
+  </g>
+
+  <!-- Database: MySQL Storage -->
+  <g transform="translate(630, 90)">
+    <rect width="130" height="190" rx="12" fill="#064e3b" stroke="#10b981" stroke-width="2" />
+    <rect width="130" height="34" rx="12" fill="#059669" />
+    <text x="65" y="22" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">MySQL Relational</text>
+    
+    <circle cx="65" cy="80" r="24" fill="#047857" stroke="#34d399" stroke-width="2" />
+    <text x="65" y="86" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">SQL</text>
+
+    <text x="65" y="130" font-family="system-ui, sans-serif" font-size="11" fill="#a7f3d0" text-anchor="middle">Structured Schemas</text>
+    <text x="65" y="150" font-family="system-ui, sans-serif" font-size="11" fill="#a7f3d0" text-anchor="middle">ACID Transactions</text>
+    <text x="65" y="170" font-family="system-ui, sans-serif" font-size="11" fill="#a7f3d0" text-anchor="middle">Data Integrity</text>
+  </g>
+
+  <!-- Bottom banner badge -->
+  <rect x="180" y="380" width="440" height="40" rx="20" fill="#0f172a" stroke="url(#p3Accent)" stroke-width="1.5" />
+  <text x="400" y="405" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#e0f2fe" text-anchor="middle">React.js Client • Flask REST Backend • MySQL Data Store • SPA Architecture</text>
+</svg>

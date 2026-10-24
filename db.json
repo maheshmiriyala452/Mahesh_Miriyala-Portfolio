@@ -1,0 +1,506 @@
+{
+  "profile": {
+    "id": "1",
+    "name": "Miriyala Mahesh",
+    "title": "Aspiring Full Stack Developer | Python Developer",
+    "email": "maheshmiriyala452@gmail.com",
+    "phone": "+91 9391620253",
+    "location": "Hyderabad, India",
+    "graduationYear": 2026,
+    "degree": "B.Tech, Electronics and Communication Engineering",
+    "college": "Vignan's Lara Institute of Technology and Science",
+    "cgpa": "8.0/10",
+    "linkedin": "https://www.linkedin.com/in/maheshmiriyala/",
+    "github": "https://github.com/maheshmiriyala",
+    "summary": "Resourceful B.Tech graduate seeking an entry-level Full Stack Developer role. Combines a strong technical foundation in Python, Flask, SQL, JavaScript, and React.js with problem-solving skills. Interested in building responsive applications, REST APIs, and reliable software solutions.",
+    "careerObjective": "Showcase my technical capabilities, projects, internship experience, certifications, and leadership achievements to recruiters. Encourage employers to contact me for suitable entry-level Full Stack Developer opportunities.",
+    "resumeUrl": "/resume/Mahesh_Miriyala_Resume.pdf",
+    "resumeLastUpdated": "October 2026",
+    "avatar": "/images/mahesh-profile.svg",
+    "typingRoles": [
+      "Aspiring Full Stack Developer",
+      "Python Developer",
+      "React.js Developer",
+      "REST API Engineer",
+      "B.Tech ECE Graduate (2026)"
+    ]
+  },
+  "skills": [
+    {
+      "id": "1",
+      "name": "Python",
+      "category": "Programming Languages",
+      "badge": "Core Backend",
+      "description": "Object-oriented scripting, algorithmic logic, Flask API development, and data manipulation."
+    },
+    {
+      "id": "2",
+      "name": "JavaScript",
+      "category": "Programming Languages",
+      "badge": "ES6+ Standard",
+      "description": "Modern ES6+ syntax, asynchronous programming, DOM operations, and REST client integrations."
+    },
+    {
+      "id": "3",
+      "name": "MySQL",
+      "category": "Programming Languages",
+      "badge": "Relational DB",
+      "description": "Relational schema design, complex multi-table JOINs, CTEs, indexing, and window functions."
+    },
+    {
+      "id": "4",
+      "name": "HTML5",
+      "category": "Frontend",
+      "badge": "Markup",
+      "description": "Semantic structure, responsive layouts, web accessibility standards, and modern forms."
+    },
+    {
+      "id": "5",
+      "name": "CSS3",
+      "category": "Frontend",
+      "badge": "Styling",
+      "description": "Modern flexbox, CSS grid, custom variables, animations, and cross-browser styling."
+    },
+    {
+      "id": "6",
+      "name": "Bootstrap 5",
+      "category": "Frontend",
+      "badge": "UI Framework",
+      "description": "Responsive container layouts, grid breakpoints, navigation, and customizable UI components."
+    },
+    {
+      "id": "7",
+      "name": "React.js",
+      "category": "Frontend",
+      "badge": "UI Library",
+      "description": "Functional components, hooks (useState, useEffect, useMemo), React Router, and state handling."
+    },
+    {
+      "id": "8",
+      "name": "Flask",
+      "category": "Backend",
+      "badge": "Microframework",
+      "description": "Lightweight Python REST APIs, route handling, request serialization, and DB integration."
+    },
+    {
+      "id": "9",
+      "name": "Django",
+      "category": "Backend",
+      "badge": "Full Stack Framework",
+      "description": "MVT architecture, ORM queries, authentication fundamentals, and admin dashboard tooling."
+    },
+    {
+      "id": "10",
+      "name": "Git & GitHub",
+      "category": "Tools & Platforms",
+      "badge": "Version Control",
+      "description": "Branching workflows, version tracking, pull requests, collaboration, and code integration."
+    },
+    {
+      "id": "11",
+      "name": "VS Code",
+      "category": "Tools & Platforms",
+      "badge": "Editor",
+      "description": "Configured developer environment with linting, debugging, and productivity extensions."
+    },
+    {
+      "id": "12",
+      "name": "Postman",
+      "category": "Tools & Platforms",
+      "badge": "API Testing",
+      "description": "Testing RESTful endpoints, validating JSON payloads, HTTP headers, and error codes."
+    },
+    {
+      "id": "13",
+      "name": "OpenAI & Hugging Face",
+      "category": "Tools & Platforms",
+      "badge": "AI Ecosystem",
+      "description": "Integrating LLMs, prompt engineering, NLP models, and generative AI features."
+    },
+    {
+      "id": "14",
+      "name": "GitHub Copilot",
+      "category": "Tools & Platforms",
+      "badge": "AI Tooling",
+      "description": "AI-assisted code authoring, test generation, and intelligent refactoring."
+    },
+    {
+      "id": "15",
+      "name": "Object-Oriented Programming (OOP)",
+      "category": "Core Competencies",
+      "badge": "Architecture",
+      "description": "Encapsulation, inheritance, polymorphism, and abstraction principles for clean software."
+    },
+    {
+      "id": "16",
+      "name": "Data Structures & Algorithms",
+      "category": "Core Competencies",
+      "badge": "Problem Solving",
+      "description": "Arrays, linked lists, stacks, queues, hash maps, sorting, and search algorithmic complexity."
+    },
+    {
+      "id": "17",
+      "name": "Software Development Life Cycle (SDLC)",
+      "category": "Core Competencies",
+      "badge": "Methodology",
+      "description": "Requirements gathering, design, iterative development, testing, and deployment cycles."
+    },
+    {
+      "id": "18",
+      "name": "Debugging & API Integration",
+      "category": "Core Competencies",
+      "badge": "Development",
+      "description": "Root-cause analysis, asynchronous REST client consumption, and edge-case handling."
+    },
+    {
+      "id": "19",
+      "name": "CRUD Operations & Responsive Design",
+      "category": "Core Competencies",
+      "badge": "Web Dev",
+      "description": "Building full-cycle Create-Read-Update-Delete flows tailored across all display resolutions."
+    },
+    {
+      "id": "20",
+      "name": "Problem Solving & Team Leadership",
+      "category": "Core Competencies",
+      "badge": "Soft Skills",
+      "description": "Effective technical communication, cross-functional teamwork, cohort coordination, and agility."
+    }
+  ],
+  "projects": [
+    {
+      "id": "ai-resume-analyzer",
+      "title": "AI Resume Analyzer",
+      "tagline": "Automated ATS Evaluation & NLP Matching Engine",
+      "category": "AI & Full Stack",
+      "technologies": [
+        "Python",
+        "Flask",
+        "NLP",
+        "Machine Learning",
+        "PyPDF2",
+        "spaCy",
+        "TF-IDF",
+        "Cosine Similarity",
+        "Pandas"
+      ],
+      "summary": "Developed an AI-powered automated resume evaluation engine that extracts candidate information from PDFs using PyPDF2 and spaCy, compares it against job descriptions using TF-IDF and cosine similarity, and produces ATS compatibility scores with keyword gap reports.",
+      "problemStatement": "Manual candidate screening is heavily time-consuming, prone to human inconsistency, and delays talent acquisition cycles when hiring managers must sift through hundreds of unstructured PDF resumes.",
+      "objectives": [
+        "Automate unstructured PDF resume text extraction and normalization using PyPDF2 and spaCy.",
+        "Compute semantic ATS compatibility match scores via TF-IDF vectorization and cosine similarity.",
+        "Generate detailed keyword gap analysis reports identifying missing competencies.",
+        "Deliver rapid processing speeds under two seconds per document."
+      ],
+      "keyFeatures": [
+        "Automated PDF resume text extraction and clean tokenization",
+        "Named Entity Recognition (NER) and domain skill classification",
+        "TF-IDF vector matching against job descriptions",
+        "Cosine similarity ATS compatibility percentage calculation",
+        "Detailed keyword deficiency and recommendations report",
+        "Modular Flask REST API ready for frontend dashboard integration"
+      ],
+      "workflow": [
+        {
+          "step": "01",
+          "title": "Document Ingestion",
+          "detail": "Applicant uploads resume in PDF format; PyPDF2 extracts raw character stream and normalizes whitespace."
+        },
+        {
+          "step": "02",
+          "title": "NLP Preprocessing",
+          "detail": "spaCy pipeline executes stop-word removal, lemmatization, and technical entity identification."
+        },
+        {
+          "step": "03",
+          "title": "Vector Transformation",
+          "detail": "TF-IDF vectorizer converts resume content and target job description into mathematical term-frequency vectors."
+        },
+        {
+          "step": "04",
+          "title": "Cosine Similarity Scoring",
+          "detail": "Computes directional angular similarity between vectors to determine overall ATS compatibility percentage."
+        },
+        {
+          "step": "05",
+          "title": "Report & Recommendation",
+          "detail": "Identifies missing high-impact keywords and outputs structured JSON payload with candidate suitability insights."
+        }
+      ],
+      "implementationOverview": "The application is built in Python with a Flask microservice layer. The ingestion engine utilizes PyPDF2 to parse multi-page PDFs, feeding cleansed text into a spaCy NLP pipeline for tokenization and keyword extraction. Scikit-learn's TfidfVectorizer transforms both the applicant resume and target job description into vector space representations, where cosine similarity measures alignment. Analytical data is organized using Pandas to format output scores, matching matrices, and missing keyword breakdowns.",
+      "reportedResults": "Resume reports 88% matching accuracy and processing in under two seconds per document. Resume reports a 70% reduction in manual candidate screening time.",
+      "metrics": {
+        "matchingAccuracy": "88%",
+        "processingSpeed": "< 2 seconds",
+        "screeningTimeReduction": "70%"
+      },
+      "githubUrl": "https://github.com/maheshmiriyala/ai-resume-analyzer",
+      "liveDemoUrl": "",
+      "featured": true,
+      "date": "2024-2025"
+    },
+    {
+      "id": "ecommerce-analytics",
+      "title": "E-Commerce Sales & Customer Analytics",
+      "tagline": "Scalable Relational Database & Advanced SQL Business Intelligence",
+      "category": "Database & Analytics",
+      "technologies": [
+        "MySQL",
+        "SQL JOINs",
+        "Window Functions",
+        "Aggregations",
+        "Database Normalization",
+        "Analytics"
+      ],
+      "summary": "Designed a normalized MySQL database schema handling over 100,000 transaction records to analyze customer lifetime value, revenue trends, and shopping behavior through advanced SQL queries, window functions, and multi-table aggregations.",
+      "problemStatement": "Large volume e-commerce transaction data scattered across unstructured records resulted in slow manual reporting, delayed revenue visibility, and inefficient query execution for commercial decision-makers.",
+      "objectives": [
+        "Architect a normalized 3NF relational database schema in MySQL for high data integrity.",
+        "Ingest and manage over 100,000 transaction records efficiently.",
+        "Formulate optimized queries using window functions (RANK, DENSE_RANK, LEAD/LAG) and CTEs.",
+        "Dramatically reduce recurring reporting latency and boost query execution efficiency."
+      ],
+      "keyFeatures": [
+        "Normalized 3NF relational schema (Customers, Orders, OrderItems, Products, Payments)",
+        "Customer Lifetime Value (CLV) calculation and multi-tiered customer segmentation",
+        "Time-series monthly and quarterly revenue growth trend calculations",
+        "Product performance matrix and inventory turnover velocity analytics",
+        "Strategic B-Tree indexing on primary and foreign keys for high query throughput",
+        "Modular SQL script repository with parameterized analytical test queries"
+      ],
+      "workflow": [
+        {
+          "step": "01",
+          "title": "Schema Normalization",
+          "detail": "Eliminated insertion, update, and deletion anomalies by structuring relational entities to 3NF."
+        },
+        {
+          "step": "02",
+          "title": "Data Population & Indexing",
+          "detail": "Imported 100,000+ realistic transaction rows and constructed composite indexes on high-frequency lookup columns."
+        },
+        {
+          "step": "03",
+          "title": "Advanced Analytical Queries",
+          "detail": "Applied window functions (SUM OVER, ROW_NUMBER, LAG) and Common Table Expressions for cohort retention."
+        },
+        {
+          "step": "04",
+          "title": "Query Plan Optimization",
+          "detail": "Profiled query performance using EXPLAIN and EXPLAIN ANALYZE to minimize full table scans."
+        },
+        {
+          "step": "05",
+          "title": "KPI Dashboards & Reports",
+          "detail": "Synthesized commercial KPIs into executive reporting summaries for data-driven strategic planning."
+        }
+      ],
+      "implementationOverview": "Designed in MySQL using structured DDL/DML scripts. Tables were decomposed into 3NF with cascading referential integrity constraints. Formulated multi-tier analytical queries using CTEs, window functions like DENSE_RANK() for top-performing product categories, and cumulative window sums for rolling revenue. Applied indexes on customer ID, order date, and product SKU, validated through query execution plans.",
+      "reportedResults": "Resume reports a 40% reduction in manual reporting time and a 30% improvement in query execution efficiency across 100,000+ transaction records.",
+      "metrics": {
+        "datasetSize": "100,000+ records",
+        "manualReportingSaved": "40%",
+        "queryEfficiencyGain": "30%"
+      },
+      "githubUrl": "https://github.com/maheshmiriyala/ecommerce-sql-analytics",
+      "liveDemoUrl": "",
+      "featured": true,
+      "date": "2024"
+    },
+    {
+      "id": "responsive-spa-highlight",
+      "title": "Responsive Single-Page Application",
+      "tagline": "Full Stack React.js & Flask REST Integration",
+      "category": "Frontend & Full Stack",
+      "technologies": [
+        "React.js",
+        "Flask",
+        "REST API",
+        "MySQL",
+        "Bootstrap 5",
+        "JavaScript ES6+"
+      ],
+      "summary": "Featured application development highlight from resume demonstrating an end-to-end responsive single-page application built with React.js functional components, a Python Flask REST API backend, and MySQL data persistence.",
+      "problemStatement": "Traditional multi-page web applications suffer from frequent page reloads and sluggish data interaction, impairing user experience on mobile and desktop devices.",
+      "objectives": [
+        "Create a seamless, reload-free Single Page Application utilizing React Router.",
+        "Implement lightweight Python Flask REST endpoints for asynchronous data operations.",
+        "Ensure full responsiveness across mobile, tablet, and desktop viewports using modern CSS and Bootstrap.",
+        "Demonstrate clean architectural separation of concerns between client and server layers."
+      ],
+      "keyFeatures": [
+        "Modern component-driven architecture using React functional components and hooks",
+        "Client-side routing with fluid view transitions",
+        "Asynchronous REST API communication with Axios and structured JSON payloads",
+        "Dynamic form handling with client-side validation and feedback states",
+        "Responsive grid layout adapting fluidly from 320px to ultra-wide displays",
+        "Resilient error handling and loading indicators"
+      ],
+      "workflow": [
+        {
+          "step": "01",
+          "title": "Component Architecture",
+          "detail": "Designed reusable layout components, modals, cards, and stateful form controls."
+        },
+        {
+          "step": "02",
+          "title": "REST API Development",
+          "detail": "Created Flask route controllers with JSON serialization and HTTP response code management."
+        },
+        {
+          "step": "03",
+          "title": "Relational Storage",
+          "detail": "Structured MySQL tables for reliable data persistence and transactional integrity."
+        },
+        {
+          "step": "04",
+          "title": "Frontend Integration",
+          "detail": "Wired UI events with asynchronous Axios requests, handling loading and error states."
+        }
+      ],
+      "implementationOverview": "Constructed as an application development highlight listed on the resume. Combines React 18+ functional components with hooks (useState, useEffect, useMemo) for responsive UI state management. The backend is powered by Python and Flask, exposing standardized REST endpoints for CRUD interactions backed by a MySQL relational schema.",
+      "reportedResults": "Recognized as a key application development achievement on the resume, demonstrating practical full-stack integration across React, Flask, and MySQL.",
+      "metrics": {
+        "architecture": "Single-Page Application",
+        "backend": "Python Flask REST",
+        "frontend": "React.js + Bootstrap"
+      },
+      "githubUrl": "https://github.com/maheshmiriyala/responsive-spa-react-flask",
+      "liveDemoUrl": "",
+      "featured": true,
+      "date": "2024-2025"
+    }
+  ],
+  "experience": [
+    {
+      "id": "1",
+      "role": "Web Development Intern",
+      "company": "Purple Technologies",
+      "location": "Vijayawada, India",
+      "duration": "3 months",
+      "type": "Internship",
+      "responsibilities": [
+        "Developed optimized, responsive interfaces using HTML5, CSS3, and JavaScript.",
+        "Improved cross-device user experience and addressed rendering issues across diverse mobile and desktop screen sizes.",
+        "Utilized AI-assisted debugging and code refactoring to accelerate development cycles and improve code maintainability.",
+        "Resume reports a 35% reduction in page load times and a 20% increase in mobile engagement.",
+        "Used Git version control for team collaboration, code reviews, and structured branch integration.",
+        "Supported on-time deployment of interface components within planned release milestones."
+      ],
+      "achievements": [
+        "35% reduction in page load times",
+        "20% increase in mobile engagement",
+        "100% on-time milestone delivery"
+      ],
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Responsive Design",
+        "Git",
+        "AI-assisted Debugging"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Vignan's Lara Institute of Technology and Science",
+      "degree": "Bachelor of Technology (B.Tech)",
+      "branch": "Electronics and Communication Engineering",
+      "duration": "2022–2026",
+      "graduationYear": "2026",
+      "cgpa": "8.0/10",
+      "location": "Vadlamudi, Guntur, Andhra Pradesh, India",
+      "description": "Comprehensive engineering curriculum covering analytical problem-solving, electronic systems, embedded programming, algorithms, and software development methodologies.",
+      "highlights": [
+        "Current CGPA: 8.0/10",
+        "Active student coordinator for major institutional events",
+        "Focused elective coursework in Computer Science, Python, and Web Development"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "1",
+      "name": "Data Analytics Simulation",
+      "organization": "Deloitte",
+      "completionDate": "March 2026",
+      "badge": "Data & Analytics",
+      "description": "Practical simulation involving business data analysis, data cleaning, trend visualization, and communicating data-driven insights for commercial decision-making.",
+      "credentialUrl": ""
+    },
+    {
+      "id": "2",
+      "name": "Programming Essentials in Python (PCAP)",
+      "organization": "Cisco",
+      "completionDate": "July 2025",
+      "badge": "Python Certified",
+      "description": "Comprehensive certification covering Python core syntax, object-oriented programming, data structures, modules, exceptions, and file processing.",
+      "credentialUrl": ""
+    },
+    {
+      "id": "3",
+      "name": "Introduction to Computer Science (CS50x)",
+      "organization": "Harvard University",
+      "completionDate": "September 2024",
+      "badge": "Computer Science Foundation",
+      "description": "Rigorous foundational computer science curriculum covering algorithmic thinking, C, Python, SQL, data structures, memory management, and web development fundamentals.",
+      "credentialUrl": ""
+    },
+    {
+      "id": "4",
+      "name": "Network Essentials",
+      "organization": "Cisco",
+      "completionDate": "December 2023",
+      "badge": "Networking & Protocols",
+      "description": "Fundamental networking protocols, IP addressing, TCP/IP and OSI models, routing concepts, network security, and client-server communication.",
+      "credentialUrl": ""
+    }
+  ],
+  "achievements": [
+    {
+      "id": "1",
+      "title": "Large-Scale Student Event Coordination",
+      "organization": "Vignan's LARA",
+      "description": "Coordinated student activities involving more than 8,000 students at Vignan's LARA, leading logistics, scheduling, and volunteer management.",
+      "impact": "Managed smooth execution of institutional festivals and academic symposiums across 8,000+ participants.",
+      "metric": "8,000+ Students"
+    },
+    {
+      "id": "2",
+      "title": "Honorable Award for Leadership",
+      "organization": "Dr. Lavu Rathaiah (Chairman, Vignan Group)",
+      "description": "Received an Honorable Award directly from Dr. Lavu Rathaiah in recognition of outstanding leadership contributions and student coordination.",
+      "impact": "Honored at institutional ceremony for exemplary initiative, integrity, and proactive campus leadership.",
+      "metric": "Institutional Honor"
+    },
+    {
+      "id": "3",
+      "title": "Faculty-Student Cohort Liaison",
+      "organization": "Vignan's LARA",
+      "description": "Served as the designated point of contact between faculty leadership and student cohorts, streamlining communication and feedback loops.",
+      "impact": "Facilitated academic resolution, curriculum feedback, and cohort scheduling with institutional faculty.",
+      "metric": "Cohort Representative"
+    },
+    {
+      "id": "4",
+      "title": "Organizational Efficiency Optimization",
+      "organization": "Student Activity Council",
+      "description": "Resume reports a 20% improvement in organizational efficiency through proactive coordination, digital scheduling, and team delegation.",
+      "impact": "Streamlined task allocation and inter-department communication across campus initiatives.",
+      "metric": "20% Efficiency Gain"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-101",
+      "name": "Tech Recruiter Sample",
+      "email": "recruiter@example.com",
+      "subject": "Entry-Level Full Stack Opportunity",
+      "message": "Hi Mahesh, we reviewed your AI Resume Analyzer and SQL projects and were impressed by your technical foundation. Would love to schedule an introductory conversation.",
+      "date": "2026-10-24T09:30:00.000Z",
+      "status": "unread"
+    }
+  ]
+}

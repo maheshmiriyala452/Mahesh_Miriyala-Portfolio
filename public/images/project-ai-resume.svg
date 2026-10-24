@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p1Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1e38" />
+    </linearGradient>
+    <linearGradient id="p1Accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" rx="16" fill="url(#p1Bg)" />
+  <rect x="2" y="2" width="796" height="446" rx="15" fill="none" stroke="#334155" stroke-width="1.5" />
+
+  <!-- Grid lines background -->
+  <g opacity="0.1" stroke="#38bdf8" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="450" />
+    <line x1="200" y1="0" x2="200" y2="450" />
+    <line x1="300" y1="0" x2="300" y2="450" />
+    <line x1="400" y1="0" x2="400" y2="450" />
+    <line x1="500" y1="0" x2="500" y2="450" />
+    <line x1="600" y1="0" x2="600" y2="450" />
+    <line x1="700" y1="0" x2="700" y2="450" />
+    <line x1="0" y1="90" x2="800" y2="90" />
+    <line x1="0" y1="180" x2="800" y2="180" />
+    <line x1="0" y1="270" x2="800" y2="270" />
+    <line x1="0" y1="360" x2="800" y2="360" />
+  </g>
+
+  <!-- Left: Candidate Resume PDF Card -->
+  <g transform="translate(60, 70)">
+    <rect width="180" height="240" rx="12" fill="url(#cardGrad)" stroke="#3b82f6" stroke-width="2" />
+    <rect x="20" y="25" width="60" height="10" rx="5" fill="#3b82f6" />
+    <line x1="20" y1="60" x2="160" y2="60" stroke="#475569" stroke-width="6" stroke-linecap="round" />
+    <line x1="20" y1="80" x2="130" y2="80" stroke="#475569" stroke-width="6" stroke-linecap="round" />
+    <line x1="20" y1="100" x2="150" y2="100" stroke="#475569" stroke-width="6" stroke-linecap="round" />
+    <line x1="20" y1="130" x2="110" y2="130" stroke="#60a5fa" stroke-width="6" stroke-linecap="round" />
+    <line x1="20" y1="150" x2="140" y2="150" stroke="#475569" stroke-width="6" stroke-linecap="round" />
+    <line x1="20" y1="170" x2="100" y2="170" stroke="#475569" stroke-width="6" stroke-linecap="round" />
+    <rect x="20" y="200" width="140" height="22" rx="6" fill="#1e3a8a" />
+    <text x="90" y="215" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#bfdbfe" text-anchor="middle">PyPDF2 + spaCy</text>
+    <text x="90" y="265" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#94a3b8" text-anchor="middle">Applicant PDF</text>
+  </g>
+
+  <!-- Center: NLP & TF-IDF Processing Engine -->
+  <g transform="translate(310, 80)">
+    <rect width="180" height="220" rx="16" fill="#111827" stroke="url(#p1Accent)" stroke-width="2" />
+    <circle cx="90" cy="65" r="35" fill="#1e293b" stroke="#8b5cf6" stroke-width="2" />
+    <text x="90" y="70" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#c084fc" text-anchor="middle">NLP / ML</text>
+    
+    <text x="90" y="125" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc" text-anchor="middle">TF-IDF Vectorizer</text>
+    <text x="90" y="148" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">&amp; Cosine Metric</text>
+    
+    <rect x="25" y="170" width="130" height="28" rx="8" fill="#312e81" />
+    <text x="90" y="188" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#a5b4fc" text-anchor="middle">Speed: &lt; 2s / doc</text>
+  </g>
+
+  <!-- Flow Arrows -->
+  <path d="M 245 190 L 305 190" stroke="#3b82f6" stroke-width="3" stroke-dasharray="6 4" />
+  <polygon points="305,185 315,190 305,195" fill="#3b82f6" />
+
+  <path d="M 495 190 L 555 190" stroke="#8b5cf6" stroke-width="3" stroke-dasharray="6 4" />
+  <polygon points="555,185 565,190 555,195" fill="#8b5cf6" />
+
+  <!-- Right: Match Score & ATS Compatibility Output -->
+  <g transform="translate(565, 70)">
+    <rect width="180" height="240" rx="12" fill="url(#cardGrad)" stroke="#10b981" stroke-width="2" />
+    <text x="90" y="45" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#94a3b8" text-anchor="middle">ATS Match Score</text>
+    
+    <!-- Large score circle -->
+    <circle cx="90" cy="115" r="45" fill="#064e3b" stroke="#10b981" stroke-width="3" />
+    <text x="90" y="125" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="#34d399" text-anchor="middle">88%</text>
+
+    <!-- Stat badges -->
+    <rect x="20" y="180" width="140" height="22" rx="6" fill="#1e293b" />
+    <text x="90" y="195" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#6ee7b7" text-anchor="middle">70% Screening Saved</text>
+    
+    <rect x="20" y="210" width="140" height="22" rx="6" fill="#1e293b" />
+    <text x="90" y="225" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#93c5fd" text-anchor="middle">Keyword Gap Report</text>
+  </g>
+
+  <!-- Bottom banner badge -->
+  <rect x="200" y="375" width="400" height="42" rx="21" fill="#0f172a" stroke="url(#p1Accent)" stroke-width="1.5" />
+  <text x="400" y="401" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="middle">Flask API • spaCy NLP • Scikit-Learn TF-IDF • PyPDF2</text>
+</svg>

@@ -1,0 +1,124 @@
+/* Responsive Breakpoint Adaptations */
+
+@media (max-width: 991.98px) {
+  .hero-section {
+    padding: 3rem 0;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .typing-container {
+    justify-content: center;
+    font-size: 1.25rem;
+  }
+
+  .hero-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .hero-social-links {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .hero-avatar-wrapper {
+    margin-top: 2.5rem;
+  }
+
+  .avatar-frame {
+    width: 280px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-title {
+    font-size: 2.1rem;
+  }
+
+  .section-padding {
+    padding: 3.5rem 0;
+  }
+
+  .section-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .project-img-wrapper {
+    height: 180px;
+  }
+
+  .about-card {
+    padding: 1.5rem;
+  }
+
+  .back-to-top {
+    bottom: 1.25rem;
+    right: 1.25rem;
+    width: 40px;
+    height: 40px;
+  }
+
+  .skills-filter-nav {
+    gap: 0.35rem;
+  }
+
+  .filter-pill {
+    padding: 0.4rem 0.85rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-title {
+    font-size: 1.85rem;
+  }
+
+  .typing-container {
+    font-size: 1.05rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions .btn-primary-custom,
+  .hero-actions .btn-secondary-custom {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .avatar-frame {
+    width: 240px;
+    border-radius: 20px;
+  }
+
+  .avatar-badge-float {
+    font-size: 0.8rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .project-footer-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .project-footer-actions .btn-primary-custom,
+  .project-footer-actions .btn-secondary-custom,
+  .project-footer-actions a {
+    text-align: center;
+    justify-content: center;
+  }
+}
