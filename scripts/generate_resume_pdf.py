@@ -189,10 +189,16 @@ story.append(Paragraph("&bull; Formulated advanced SQL queries with window funct
 story.append(Paragraph("&bull; Resume reports a 40% reduction in manual reporting time and a 30% improvement in query execution efficiency.", bullet_style))
 story.append(Spacer(1, 4))
 
-# Project 3 Highlight
+# Project 3: Rythumitra-360
+story.append(Paragraph("<b>Rythumitra-360</b> | <i>Python, Flask, React.js, MySQL, Machine Learning, OpenCV, REST API</i>", bold_style))
+story.append(Paragraph("&bull; Developed full-stack digital agriculture platform delivering AI-driven crop leaf disease detection and regional mandi market price tracking.", bullet_style))
+story.append(Paragraph("&bull; Integrated localized agro-weather intelligence, fertilizer calculators, and high-performance Flask REST microservices.", bullet_style))
+story.append(Spacer(1, 4))
+
+# Project 4 Highlight
 story.append(Paragraph("<b>Responsive Single-Page Application</b> | <i>React.js, Flask, REST API, MySQL</i>", bold_style))
 story.append(Paragraph("&bull; Highlighted application development achievement featuring component-driven React architecture, RESTful Flask endpoints, and MySQL persistence.", bullet_style))
-story.append(Spacer(1, 6))
+story.append(Spacer(1, 5))
 
 # Certifications
 story.append(Paragraph("CERTIFICATIONS", section_heading))

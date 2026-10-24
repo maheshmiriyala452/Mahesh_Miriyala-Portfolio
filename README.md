@@ -91,7 +91,12 @@ All information in this portfolio is sourced from Miriyala Mahesh's resume:
 - **Features:** Normalized database architecture handling 100,000+ transaction rows, Customer Lifetime Value (CLV) cohorts, time-series revenue analysis.
 - **Reported Results:** 40% reduction in manual reporting time, 30% improvement in query execution efficiency.
 
-### 3. Responsive Single-Page Application (Achievement Highlight)
+### 3. Rythumitra-360
+- **Stack:** Python, Flask, React.js, MySQL, Machine Learning, OpenCV, REST API, Bootstrap 5.
+- **Features:** AI-driven crop leaf disease detection, dynamic regional mandi market price tracking, localized agro-weather intelligence, and personalized fertilizer dosage advisory.
+- **Reported Results:** 94.8% classification accuracy, sub-500ms API response latency, multi-crop advisory coverage.
+
+### 4. Responsive Single-Page Application (Achievement Highlight)
 - **Stack:** React.js, Python Flask REST API, MySQL, Bootstrap 5.
 - **Features:** Single-page application architecture with client-side routing, modular components, asynchronous Axios REST communication, and responsive layouts.
 
@@ -107,6 +112,7 @@ d:/frontend/Mahesh_Miriyala_Portofilo/
 │   │   ├── mahesh-profile.svg
 │   │   ├── project-ai-resume.svg
 │   │   ├── project-ecommerce-sql.svg
+│   │   ├── project-rythumitra-360.svg
 │   │   └── project-spa-react.svg
 │   └── resume/
 │       └── Mahesh_Miriyala_Resume.pdf       # Verified 1-page PDF Resume

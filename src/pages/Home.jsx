@@ -115,8 +115,8 @@ export const Home = () => {
           </div>
 
           <div className="row g-4">
-            {projects.slice(0, 3).map((proj) => (
-              <div key={proj.id} className="col-lg-4 col-md-6">
+            {projects.slice(0, 4).map((proj) => (
+              <div key={proj.id} className="col-lg-6 col-md-6">
                 <ProjectCard project={proj} />
               </div>
             ))}

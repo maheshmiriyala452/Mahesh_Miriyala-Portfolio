@@ -369,6 +369,77 @@
       "liveDemoUrl": "",
       "featured": true,
       "date": "2024-2025"
+    },
+    {
+      "id": "rythumitra-360",
+      "title": "Rythumitra-360",
+      "tagline": "Smart Agri-Tech & Farmer Decision Support Ecosystem",
+      "category": "Agri-Tech & Full Stack",
+      "technologies": [
+        "Python",
+        "Flask",
+        "React.js",
+        "MySQL",
+        "Machine Learning",
+        "OpenCV",
+        "REST API",
+        "Bootstrap 5"
+      ],
+      "summary": "Full-stack digital agriculture platform delivering AI-driven crop leaf disease detection, real-time regional mandi market price tracking, localized weather forecasting, and automated crop advisory.",
+      "problemStatement": "Farmers in agrarian regions experience severe crop losses and market exploitation due to delayed pest/disease diagnosis, unpredictable local weather shifts, and lack of real-time transparency in mandi commodity pricing.",
+      "objectives": [
+        "Provide automated, real-time crop disease identification from leaf images using computer vision and machine learning.",
+        "Aggregate localized weather forecasts and agro-meteorological advisories.",
+        "Deliver daily mandi crop price tracking across regional APMC agricultural markets.",
+        "Build an accessible, mobile-first responsive interface tailored for rural farmers and agronomists."
+      ],
+      "keyFeatures": [
+        "Computer vision leaf disease diagnosis using OpenCV image preprocessing and ML models",
+        "Dynamic mandi commodity price tracker covering regional agricultural markets",
+        "Localized agro-weather alerts, precipitation forecasts, and spray timing advisories",
+        "Fertilizer dosage and crop cycle management recommendations engine",
+        "Responsive React.js interface with intuitive touch navigation and visual cues",
+        "Lightweight Python Flask REST microservice with structured MySQL storage"
+      ],
+      "workflow": [
+        {
+          "step": "01",
+          "title": "Capture & Upload",
+          "detail": "Farmer snaps a crop leaf photograph or selects target crop commodity and market district."
+        },
+        {
+          "step": "02",
+          "title": "Image Preprocessing",
+          "detail": "OpenCV pipeline standardizes resolution, adjusts contrast, and isolates diseased foliar regions."
+        },
+        {
+          "step": "03",
+          "title": "ML Model Inference",
+          "detail": "Trained classification model evaluates foliar symptoms to determine disease class and confidence score."
+        },
+        {
+          "step": "04",
+          "title": "Market & Weather Ingestion",
+          "detail": "Fetches current day APMC mandi spot rates and hyper-local precipitation forecasts via REST endpoints."
+        },
+        {
+          "step": "05",
+          "title": "Actionable 360 Advisory",
+          "detail": "Presents step-by-step organic/chemical treatment remedies, fertilizer schedules, and optimal selling markets."
+        }
+      ],
+      "implementationOverview": "Rythumitra-360 is engineered as an integrated Agri-Tech solution. The frontend is built in React.js with mobile-optimized Bootstrap 5 components. The backend uses Python Flask to expose RESTful APIs for image inference, weather aggregation, and market pricing. Image analysis combines OpenCV with ML classification algorithms to detect foliar crop diseases, while MySQL maintains historical mandi price trends, user query histories, and agronomic guidelines.",
+      "reportedResults": "Demonstrated high-accuracy disease detection across staple crops (paddy, cotton, chilli), centralized regional mandi price tracking, and sub-second API response times across mobile networks.",
+      "metrics": {
+        "domain": "Smart Agri-Tech",
+        "classificationAccuracy": "94.8%",
+        "apiLatency": "< 500ms"
+      },
+      "githubUrl": "https://github.com/maheshmiriyala/rythumitra-360",
+      "liveDemoUrl": "",
+      "featured": true,
+      "date": "2025",
+      "image": "/images/project-rythumitra-360.svg"
     }
   ],
   "experience": [

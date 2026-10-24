@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="50%" stop-color="#0f291e" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="rmAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#134e4a" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="450" rx="16" fill="url(#rmBg)" />
+  <rect x="2" y="2" width="796" height="446" rx="15" fill="none" stroke="#059669" stroke-width="1.5" opacity="0.6" />
+
+  <!-- Subtle ambient decorative rings -->
+  <circle cx="400" cy="225" r="180" fill="none" stroke="#10b981" stroke-width="1" stroke-dasharray="8 6" opacity="0.25" />
+  <circle cx="400" cy="225" r="210" fill="none" stroke="#34d399" stroke-width="1" opacity="0.15" />
+
+  <!-- Left Card: AI Crop Leaf Disease Detection -->
+  <g transform="translate(60, 65)">
+    <rect width="200" height="260" rx="12" fill="#022c22" stroke="#10b981" stroke-width="1.5" />
+    <rect width="200" height="34" rx="12" fill="#047857" />
+    <text x="100" y="22" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">AI Crop Health Scan</text>
+
+    <!-- Stylized Leaf Icon -->
+    <g transform="translate(65, 50)">
+      <circle cx="35" cy="35" r="32" fill="#064e3b" stroke="#34d399" stroke-width="2" />
+      <path d="M 35 15 C 52 18, 56 42, 35 55 C 14 42, 18 18, 35 15 Z" fill="url(#leafGrad)" />
+      <line x1="35" y1="18" x2="35" y2="52" stroke="#064e3b" stroke-width="2" />
+    </g>
+
+    <text x="100" y="140" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="middle">OpenCV + ML Model</text>
+    <text x="100" y="160" font-family="system-ui, sans-serif" font-size="11" fill="#a7f3d0" text-anchor="middle">Leaf Disease Identification</text>
+
+    <!-- Scan Status Badge -->
+    <rect x="25" y="180" width="150" height="26" rx="6" fill="#065f46" />
+    <text x="100" y="197" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#6ee7b7" text-anchor="middle">Diagnosis: Healthy Crop</text>
+
+    <rect x="25" y="215" width="150" height="26" rx="6" fill="#064e3b" />
+    <text x="100" y="232" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#fde68a" text-anchor="middle">Confidence: 94.8%</text>
+  </g>
+
+  <!-- Center Hub: Rythumitra-360 Core Engine -->
+  <g transform="translate(300, 75)">
+    <rect width="200" height="240" rx="16" fill="#0f172a" stroke="url(#rmAccent)" stroke-width="2" />
+    
+    <!-- Central 360 Emblem -->
+    <circle cx="100" cy="70" r="38" fill="#064e3b" stroke="#fbbf24" stroke-width="2.5" />
+    <text x="100" y="67" font-family="system-ui, sans-serif" font-size="15" font-weight="bold" fill="#fde68a" text-anchor="middle">RYTHU</text>
+    <text x="100" y="85" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#34d399" text-anchor="middle">360&deg;</text>
+
+    <text x="100" y="132" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#f8fafc" text-anchor="middle">Agri-Tech Platform</text>
+    <text x="100" y="152" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Python Flask REST API</text>
+    <text x="100" y="170" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">+ React.js SPA Client</text>
+
+    <rect x="25" y="190" width="150" height="30" rx="15" fill="#047857" />
+    <text x="100" y="210" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">Farmer Advisory 360&deg;</text>
+  </g>
+
+  <!-- Connectors -->
+  <path d="M 260 195 L 300 195" stroke="#10b981" stroke-width="2.5" stroke-dasharray="4 2" />
+  <path d="M 500 195 L 540 195" stroke="#fbbf24" stroke-width="2.5" stroke-dasharray="4 2" />
+
+  <!-- Right Card: Mandi Market & Weather Intelligence -->
+  <g transform="translate(540, 65)">
+    <rect width="200" height="260" rx="12" fill="#022c22" stroke="#fbbf24" stroke-width="1.5" />
+    <rect width="200" height="34" rx="12" fill="#b45309" />
+    <text x="100" y="22" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">Mandi Prices &amp; Weather</text>
+
+    <!-- Market stats list -->
+    <rect x="15" y="48" width="170" height="38" rx="6" fill="#0f291e" stroke="#047857" stroke-width="1" />
+    <text x="25" y="66" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#f8fafc">Paddy (Common):</text>
+    <text x="175" y="66" font-family="monospace" font-size="11" font-weight="bold" fill="#34d399" text-anchor="end">&#8377;2,320/Q</text>
+    <text x="25" y="80" font-family="system-ui, sans-serif" font-size="9" fill="#94a3b8">Market: Warangal Mandi</text>
+
+    <rect x="15" y="94" width="170" height="38" rx="6" fill="#0f291e" stroke="#047857" stroke-width="1" />
+    <text x="25" y="112" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#f8fafc">Cotton (Medium):</text>
+    <text x="175" y="112" font-family="monospace" font-size="11" font-weight="bold" fill="#fde68a" text-anchor="end">&#8377;7,120/Q</text>
+    <text x="25" y="126" font-family="system-ui, sans-serif" font-size="9" fill="#94a3b8">Market: Khammam Mandi</text>
+
+    <rect x="15" y="140" width="170" height="38" rx="6" fill="#0f291e" stroke="#047857" stroke-width="1" />
+    <text x="25" y="158" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#f8fafc">Red Chilli (Teja):</text>
+    <text x="175" y="158" font-family="monospace" font-size="11" font-weight="bold" fill="#f87171" text-anchor="end">&#8377;18,500/Q</text>
+    <text x="25" y="172" font-family="system-ui, sans-serif" font-size="9" fill="#94a3b8">Market: Guntur Mandi</text>
+
+    <!-- Weather pill -->
+    <rect x="15" y="190" width="170" height="52" rx="8" fill="#134e4a" />
+    <text x="100" y="210" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#a7f3d0" text-anchor="middle">Agro-Weather Alert</text>
+    <text x="100" y="230" font-family="system-ui, sans-serif" font-size="10" fill="#fef08a" text-anchor="middle">28&deg;C &bull; Light Rain Expected</text>
+  </g>
+
+  <!-- Bottom Banner Pill -->
+  <rect x="150" y="380" width="500" height="42" rx="21" fill="#022c22" stroke="url(#rmAccent)" stroke-width="1.5" />
+  <text x="400" y="406" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#f0fdf4" text-anchor="middle">React.js &bull; Python Flask REST &bull; OpenCV ML &bull; MySQL &bull; Agri-Tech Advisory</text>
+</svg>

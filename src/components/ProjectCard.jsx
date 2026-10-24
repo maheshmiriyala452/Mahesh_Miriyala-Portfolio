@@ -9,6 +9,8 @@ export const ProjectCard = ({ project }) => {
       ? '/images/project-ai-resume.svg'
       : project.id === 'ecommerce-analytics'
       ? '/images/project-ecommerce-sql.svg'
+      : project.id === 'rythumitra-360'
+      ? '/images/project-rythumitra-360.svg'
       : '/images/project-spa-react.svg';
 
   return (
