@@ -56,9 +56,9 @@ export const AboutPage = () => {
                 My engineering studies provided a robust grounding in mathematical modeling, digital logic, and algorithmic problem solving. Concurrently, I channeled my dedication toward modern software architecture—mastering <strong className="text-white">Python</strong>, <strong className="text-white">Flask</strong>, <strong className="text-white">React.js</strong>, and <strong className="text-white">MySQL</strong> to build full-stack web applications and robust REST APIs.
               </p>
 
-              <h4 className="fw-bold text-white mb-3">Professional Internship at Purple Technologies</h4>
+              <h4 className="fw-bold text-white mb-3">Professional Internship at Purple Technologies - Vijayawada</h4>
               <p className="text-secondary mb-4" style={{ fontSize: '1.02rem', lineHeight: '1.8' }}>
-                During my 3-month <strong className="text-white">Web Development Internship at Purple Technologies</strong> in Vijayawada, I translated mockups into responsive, accessible web interfaces. Through systematic debugging and AI-assisted refactoring, my work contributed to a reported <strong className="text-white">35% reduction in page load times</strong> and a <strong className="text-white">20% increase in mobile user engagement</strong>.
+                During my 3-month <strong className="text-white">Web Development Internship at Purple Technologies - Vijayawada</strong>, I translated mockups into responsive, accessible web interfaces. Through systematic debugging and AI-assisted refactoring, my work contributed to a reported <strong className="text-white">35% reduction in page load times</strong> and a <strong className="text-white">20% increase in mobile user engagement</strong>.
               </p>
 
               <h4 className="fw-bold text-white mb-3">Career Objective</h4>

@@ -30,7 +30,7 @@ export const About = ({ profile }) => {
                   <span className="text-gradient fw-bold">8.0 / 10</span>.
                 </p>
                 <p className="text-secondary mb-4" style={{ fontSize: '1rem', lineHeight: '1.7' }}>
-                  During my 3-month <strong className="text-white">Web Development Internship at Purple Technologies</strong> (Vijayawada), I developed optimized interfaces using HTML5, CSS3, and JavaScript, contributing to a reported <strong className="text-white">35% reduction in page load times</strong> and a <strong className="text-white">20% increase in mobile engagement</strong>.
+                  During my 3-month <strong className="text-white">Web Development Internship at Purple Technologies - Vijayawada</strong>, I developed optimized interfaces using HTML5, CSS3, and JavaScript, contributing to a reported <strong className="text-white">35% reduction in page load times</strong> and a <strong className="text-white">20% increase in mobile engagement</strong>.
                 </p>
                 <p className="text-secondary mb-4" style={{ fontSize: '1rem', lineHeight: '1.7' }}>
                   My core development stack centers around <strong className="text-white">Python</strong>, <strong className="text-white">Flask</strong>, <strong className="text-white">React.js</strong>, and <strong className="text-white">MySQL</strong>, complemented by data structures, algorithmic problem solving, and modern SDLC practices.
@@ -55,7 +55,7 @@ export const About = ({ profile }) => {
                   <div className="col-sm-6">
                     <div className="d-flex align-items-center gap-2 text-muted" style={{ fontSize: '0.9rem' }}>
                       <Briefcase size={16} className="text-primary flex-shrink-0" />
-                      <span><strong>Internship:</strong> Purple Technologies</span>
+                      <span><strong>Internship:</strong> Purple Technologies - Vijayawada</span>
                     </div>
                   </div>
                   <div className="col-sm-6">

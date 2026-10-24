@@ -448,7 +448,7 @@ export const initialData = {
       id: "1",
       role: "Web Development Intern",
       company: "Purple Technologies",
-      location: "Vijayawada, India",
+      location: "Purple Technologies - Vijayawada",
       duration: "3 months",
       type: "Internship",
       responsibilities: [

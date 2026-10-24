@@ -73,7 +73,7 @@ All information in this portfolio is sourced from Miriyala Mahesh's resume:
 | **Email** | [maheshmiriyala452@gmail.com](mailto:maheshmiriyala452@gmail.com) |
 | **LinkedIn** | [https://www.linkedin.com/in/maheshmiriyala/](https://www.linkedin.com/in/maheshmiriyala/) |
 | **GitHub** | [https://github.com/maheshmiriyala](https://github.com/maheshmiriyala) |
-| **Internship** | Web Development Intern @ Purple Technologies, Vijayawada (3 Months) |
+| **Internship** | Web Development Intern @ Purple Technologies - Vijayawada (3 Months) |
 | **Internship Metrics** | 35% load time reduction, 20% mobile engagement increase |
 | **Leadership** | Coordinated activities for 8,000+ students; Award from Dr. Lavu Rathaiah |
 

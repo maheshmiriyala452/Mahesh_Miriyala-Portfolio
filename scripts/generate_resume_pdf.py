@@ -152,8 +152,8 @@ story.append(Spacer(1, 6))
 story.append(Paragraph("PROFESSIONAL EXPERIENCE", section_heading))
 exp_data = [
     [
-        Paragraph("<b>Web Development Intern</b> | Purple Technologies", bold_style),
-        Paragraph("<para align=right><b>Vijayawada | 3 Months</b></para>", body_style)
+        Paragraph("<b>Web Development Intern</b> | Purple Technologies - Vijayawada", bold_style),
+        Paragraph("<para align=right><b>3 Months</b></para>", body_style)
     ]
 ]
 exp_table = Table(exp_data, colWidths=[380, 160])
