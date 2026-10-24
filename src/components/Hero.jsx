@@ -4,11 +4,10 @@ import { ArrowRight, Download, Mail, FileText, CheckCircle2 } from 'lucide-react
 import { Github, Linkedin } from './Icons';
 
 export const Hero = ({ profile }) => {
-  const roles = profile?.typingRoles || [
+  const roles = profile?.typingRoles?.filter(r => r !== 'REST API Engineer') || [
     'Aspiring Full Stack Developer',
     'Python Developer',
     'React.js Developer',
-    'REST API Engineer',
     'B.Tech ECE Graduate (2026)'
   ];
 

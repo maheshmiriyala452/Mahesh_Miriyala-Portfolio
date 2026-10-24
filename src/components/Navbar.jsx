@@ -27,7 +27,7 @@ export const Navbar = () => {
         {/* Brand */}
         <Link to="/" className="navbar-brand-custom" onClick={() => setIsOpen(false)}>
           <span className="brand-dot"></span>
-          <span>Mahesh<span className="text-gradient">.dev</span></span>
+          <span>Miriyala <span className="text-gradient">Mahesh</span></span>
         </Link>
 
         {/* Desktop Links */}

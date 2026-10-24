@@ -41,27 +41,35 @@ export const About = ({ profile }) => {
               <div className="pt-3 border-top border-secondary-subtle">
                 <div className="row g-2">
                   <div className="col-sm-6">
-                    <div className="d-flex align-items-center gap-2 text-muted" style={{ fontSize: '0.9rem' }}>
-                      <MapPin size={16} className="text-primary flex-shrink-0" />
-                      <span><strong>Location:</strong> Hyderabad, India</span>
+                    <div className="d-flex align-items-center gap-2 p-2 rounded-2" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-subtle)' }}>
+                      <MapPin size={17} className="text-primary flex-shrink-0" />
+                      <span style={{ color: '#f8fafc', fontSize: '0.9rem' }}>
+                        <strong className="text-primary">Location:</strong> Hyderabad, India
+                      </span>
                     </div>
                   </div>
                   <div className="col-sm-6">
-                    <div className="d-flex align-items-center gap-2 text-muted" style={{ fontSize: '0.9rem' }}>
-                      <GraduationCap size={16} className="text-primary flex-shrink-0" />
-                      <span><strong>Degree:</strong> B.Tech ECE (2022–2026)</span>
+                    <div className="d-flex align-items-center gap-2 p-2 rounded-2" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-subtle)' }}>
+                      <GraduationCap size={17} className="text-primary flex-shrink-0" />
+                      <span style={{ color: '#f8fafc', fontSize: '0.9rem' }}>
+                        <strong className="text-primary">Degree:</strong> B.Tech ECE (2022–2026)
+                      </span>
                     </div>
                   </div>
                   <div className="col-sm-6">
-                    <div className="d-flex align-items-center gap-2 text-muted" style={{ fontSize: '0.9rem' }}>
-                      <Briefcase size={16} className="text-primary flex-shrink-0" />
-                      <span><strong>Internship:</strong> Purple Technologies - Vijayawada</span>
+                    <div className="d-flex align-items-center gap-2 p-2 rounded-2" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-subtle)' }}>
+                      <Briefcase size={17} className="text-primary flex-shrink-0" />
+                      <span style={{ color: '#f8fafc', fontSize: '0.9rem' }}>
+                        <strong className="text-primary">Internship:</strong> Purple Technologies - Vijayawada
+                      </span>
                     </div>
                   </div>
                   <div className="col-sm-6">
-                    <div className="d-flex align-items-center gap-2 text-muted" style={{ fontSize: '0.9rem' }}>
-                      <Award size={16} className="text-primary flex-shrink-0" />
-                      <span><strong>Academics:</strong> CGPA 8.0/10</span>
+                    <div className="d-flex align-items-center gap-2 p-2 rounded-2" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-subtle)' }}>
+                      <Award size={17} className="text-primary flex-shrink-0" />
+                      <span style={{ color: '#f8fafc', fontSize: '0.9rem' }}>
+                        <strong className="text-primary">Academics:</strong> CGPA 8.0/10
+                      </span>
                     </div>
                   </div>
                 </div>

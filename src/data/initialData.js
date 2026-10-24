@@ -22,7 +22,6 @@ export const initialData = {
       "Aspiring Full Stack Developer",
       "Python Developer",
       "React.js Developer",
-      "REST API Engineer",
       "B.Tech ECE Graduate (2026)"
     ]
   },

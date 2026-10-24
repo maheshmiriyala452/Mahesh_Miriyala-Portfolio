@@ -16,12 +16,12 @@
     "careerObjective": "Showcase my technical capabilities, projects, internship experience, certifications, and leadership achievements to recruiters. Encourage employers to contact me for suitable entry-level Full Stack Developer opportunities.",
     "resumeUrl": "/resume/Mahesh_Miriyala_Resume.pdf",
     "resumeLastUpdated": "October 2026",
-    "avatar": "/images/mahesh-profile.svg",
+    "avatar": "/images/mahesh-profile.png",
+    "avatarFull": "/images/mahesh-profile-full.png",
     "typingRoles": [
       "Aspiring Full Stack Developer",
       "Python Developer",
       "React.js Developer",
-      "REST API Engineer",
       "B.Tech ECE Graduate (2026)"
     ]
   },

@@ -584,7 +584,20 @@
   background: var(--bg-secondary);
   border-top: 1px solid var(--border-subtle);
   padding: 3.5rem 0 2rem;
-  color: var(--text-muted);
+  color: #f8fafc !important;
+}
+
+.footer-nav-link {
+  color: #e2e8f0 !important;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  transition: all var(--transition-fast);
+}
+
+.footer-nav-link:hover {
+  color: #38bdf8 !important;
+  transform: translateX(4px);
 }
 
 /* --- ADMIN DASHBOARD --- */
