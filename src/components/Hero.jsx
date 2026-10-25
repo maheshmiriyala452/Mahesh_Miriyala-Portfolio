@@ -42,7 +42,7 @@ export const Hero = ({ profile }) => {
   }, [currentText, isDeleting, typingSpeed, currentRoleIndex, roles]);
 
   const resumeUrl = profile?.resumeUrl || '/resume/Mahesh_Miriyala_Resume.pdf';
-  const avatarUrl = profile?.avatar || '/images/mahesh-profile.svg';
+  const avatarUrl = profile?.avatar || '/images/mahesh-profile.png';
 
   return (
     <section className="hero-section" aria-label="Introduction">
